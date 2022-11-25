@@ -27,7 +27,7 @@ from jrnl.messages import MsgText
 from jrnl.output import print_msg
 
 
-def preconfig_diagnostic(_):
+def preconfig_diagnostic(_) -> None:
     from jrnl import __title__
     from jrnl import __version__
 
@@ -38,7 +38,7 @@ def preconfig_diagnostic(_):
     )
 
 
-def preconfig_version(_):
+def preconfig_version(_) -> None:
     import textwrap
 
     from jrnl import __title__
