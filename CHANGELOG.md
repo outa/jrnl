@@ -1,29 +1,20 @@
 # Changelog
 
-## [v4.2-beta](https://pypi.org/project/jrnl/v4.2-beta/) (2024-10-19)
+## [v4.2](https://pypi.org/project/jrnl/v4.2/) (2024-11-17)
 
-[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v4.1...v4.2-beta)
+[Full Changelog](https://github.com/jrnl-org/jrnl/compare/v4.2-beta...v4.2)
 
 **Implemented enhancements:**
 
-- Add Python 3.13 support [\#1893](https://github.com/jrnl-org/jrnl/issues/1893)
 - Add calendar heatmap display format [\#1759](https://github.com/jrnl-org/jrnl/pull/1759) ([alichtman](https://github.com/alichtman))
 
 **Fixed bugs:**
 
-- Docs accessibility checker failure - contrast ratio [\#1934](https://github.com/jrnl-org/jrnl/issues/1934)
-- Docs accessibility test runner failing [\#1932](https://github.com/jrnl-org/jrnl/issues/1932)
-- -contains doesn't accept multiple search terms, doesn't work with -and [\#1877](https://github.com/jrnl-org/jrnl/issues/1877)
-- Tests failing on develop branch starting with pytest-bdd 7.1.2 [\#1875](https://github.com/jrnl-org/jrnl/issues/1875)
-- Bug Report [\#1870](https://github.com/jrnl-org/jrnl/issues/1870)
-- Ignore color when used in  a pipeline [\#1839](https://github.com/jrnl-org/jrnl/issues/1839)
+- Failing to run jrnl ModuleNotFoundError: No module named 'pkg\_resources' [\#1950](https://github.com/jrnl-org/jrnl/issues/1950)
 - Fix -contains to allow multiple terms with "OR" logic unless -and is added [\#1890](https://github.com/jrnl-org/jrnl/pull/1890) ([eigenric](https://github.com/eigenric))
 
 **Documentation:**
 
-- Recommend pipx as default installation method [\#1888](https://github.com/jrnl-org/jrnl/issues/1888)
-- Remove documentation recommendation to install pipx through brew or pip [\#1886](https://github.com/jrnl-org/jrnl/issues/1886)
-- Document security risks of using a computer that someone else has admin access to [\#1793](https://github.com/jrnl-org/jrnl/issues/1793)
 - Force brighter color with XML syntax highlighting [\#1943](https://github.com/jrnl-org/jrnl/pull/1943) ([micahellison](https://github.com/micahellison))
 - Recommend pipx as easiest installation method for all OSes and remove warning about apt [\#1889](https://github.com/jrnl-org/jrnl/pull/1889) ([micahellison](https://github.com/micahellison))
 
